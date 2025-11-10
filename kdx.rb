@@ -5,21 +5,21 @@
 class Kdx < Formula
   desc "Kodexa CLI - Command-line interface for Kodexa platform"
   homepage "https://www.kodexa.com"
-  version "0.1.7"
+  version "0.1.8"
   license "Proprietary"
 
   on_macos do
     on_intel do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v0.1.7/kdx_0.1.7_darwin_x86_64.tar.gz"
-      sha256 "4fcda24b11194bb133f0622f0ad23e9e4e21014b4c1d5d868e171f254d0ba311"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v0.1.8/kdx_0.1.8_darwin_x86_64.tar.gz"
+      sha256 "580c64d639a19ba4485d2609b12ffd7057bc5b945b29d73596a4db6c09c29b57"
 
       def install
         bin.install "kdx"
       end
     end
     on_arm do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v0.1.7/kdx_0.1.7_darwin_arm64.tar.gz"
-      sha256 "d73e921170d7313405ef31f70d3c95d2a87661864e536e6654341ae83ac67b8f"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v0.1.8/kdx_0.1.8_darwin_arm64.tar.gz"
+      sha256 "2bcad453220ba27ce852a01dd5ba279208127f283551cd5b3a4ba8884a3eb483"
 
       def install
         bin.install "kdx"
@@ -30,8 +30,8 @@ class Kdx < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v0.1.7/kdx_0.1.7_linux_x86_64.tar.gz"
-        sha256 "6c73038f0b2a5ed5a4a4e04545108842b7e177344c3d4549b7a8d67bbe0b157b"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v0.1.8/kdx_0.1.8_linux_x86_64.tar.gz"
+        sha256 "1ad280348e888cee38f5f35945730769707140865ffc64b3b7fd759d64043448"
 
         def install
           bin.install "kdx"
@@ -40,8 +40,8 @@ class Kdx < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v0.1.7/kdx_0.1.7_linux_arm64.tar.gz"
-        sha256 "b315e0bbdaafcee8922af45bbb6641e733be3949736e497f906fc8839a78e423"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v0.1.8/kdx_0.1.8_linux_arm64.tar.gz"
+        sha256 "0785dd97fdc0ad6238226d47d12a0a7da5597366c132c3756bf0124b4eef1311"
 
         def install
           bin.install "kdx"
