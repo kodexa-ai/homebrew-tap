@@ -5,21 +5,21 @@
 class KdxDev < Formula
   desc "Kodexa CLI (Dev) - Development build of the Kodexa platform CLI"
   homepage "https://www.kodexa.com"
-  version "2026.3.0-develop-23402870891"
+  version "2026.3.0-develop-23405442738"
   license "Proprietary"
 
   on_macos do
     on_intel do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.3.0-develop-23402870891/kdx-dev_2026.3.0-develop-23402870891_darwin_x86_64.tar.gz"
-      sha256 "57782367c5080d44bb83a5e4295ca65e5d883e35025aea65f8dbe33830ef756c"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.3.0-develop-23405442738/kdx-dev_2026.3.0-develop-23405442738_darwin_x86_64.tar.gz"
+      sha256 "684bffd022d03f9e48e66d230025c945428a2275917184e92cbc028d4bd96516"
 
       def install
         bin.install "kdx-dev"
       end
     end
     on_arm do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.3.0-develop-23402870891/kdx-dev_2026.3.0-develop-23402870891_darwin_arm64.tar.gz"
-      sha256 "ebf963e435ad68694c97c75afbe4a4392cb00a14266db4bedff2cda023514b2d"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.3.0-develop-23405442738/kdx-dev_2026.3.0-develop-23405442738_darwin_arm64.tar.gz"
+      sha256 "b2f3f9c19b955279b40858481005e7797e8e33f751ed8dc0772b3e0a488f8777"
 
       def install
         bin.install "kdx-dev"
@@ -30,8 +30,8 @@ class KdxDev < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.3.0-develop-23402870891/kdx-dev_2026.3.0-develop-23402870891_linux_x86_64.tar.gz"
-        sha256 "b5b942bee276c9ef9862c8094688f27ec70a46eed6bf8ee105712c31d9258839"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.3.0-develop-23405442738/kdx-dev_2026.3.0-develop-23405442738_linux_x86_64.tar.gz"
+        sha256 "1f96154a6d4ac5c0ebd2a040e69fa96d53f61b2a042f09171435374169c4bec3"
 
         def install
           bin.install "kdx-dev"
@@ -40,8 +40,8 @@ class KdxDev < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.3.0-develop-23402870891/kdx-dev_2026.3.0-develop-23402870891_linux_arm64.tar.gz"
-        sha256 "fd34128b7c9e9426e633e958c96e7c141cbf5892893641fe1d8bb69b36a1f1aa"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.3.0-develop-23405442738/kdx-dev_2026.3.0-develop-23405442738_linux_arm64.tar.gz"
+        sha256 "9ac1395ca874ddb7ef058861ccf9914ea4005d8deaf0bd4f721549a78543acae"
 
         def install
           bin.install "kdx-dev"
