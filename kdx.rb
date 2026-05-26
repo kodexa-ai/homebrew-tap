@@ -5,21 +5,21 @@
 class Kdx < Formula
   desc "Kodexa CLI - Command-line interface for Kodexa platform"
   homepage "https://www.kodexa.com"
-  version "2026.4.1-26451490626"
+  version "2026.4.1-26457175151"
   license "Proprietary"
 
   on_macos do
     on_intel do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.4.1-26451490626/kdx_2026.4.1-26451490626_darwin_x86_64.tar.gz"
-      sha256 "d3617a7f60aaa9d7207ce5d5deb36e9976049810751d09ba813b9b99d7b3ca49"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.4.1-26457175151/kdx_2026.4.1-26457175151_darwin_x86_64.tar.gz"
+      sha256 "011d3774778fdde2d7e8da257a469a261f3723400b20fb54dfd106a384643de3"
 
       def install
         bin.install "kdx"
       end
     end
     on_arm do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.4.1-26451490626/kdx_2026.4.1-26451490626_darwin_arm64.tar.gz"
-      sha256 "f3075b523974340e14ed709f7fba660d7b4182e20081b2508d91fcfb3892c324"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.4.1-26457175151/kdx_2026.4.1-26457175151_darwin_arm64.tar.gz"
+      sha256 "9cb35e90b5b6cfd0398a0413634ff63ee77a93242283089202305e4cca05251c"
 
       def install
         bin.install "kdx"
@@ -30,8 +30,8 @@ class Kdx < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.4.1-26451490626/kdx_2026.4.1-26451490626_linux_x86_64.tar.gz"
-        sha256 "91b18b8ccf6c4fa9c221ab980944b8c1ec529b1c027ec1a507b2dcc07fe667a0"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.4.1-26457175151/kdx_2026.4.1-26457175151_linux_x86_64.tar.gz"
+        sha256 "2a34561ce47f16c44095e07d7afa626f95c123af34cd25187ff22e9d37846489"
 
         def install
           bin.install "kdx"
@@ -40,8 +40,8 @@ class Kdx < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.4.1-26451490626/kdx_2026.4.1-26451490626_linux_arm64.tar.gz"
-        sha256 "d6b8d50e7ad24185a9e7a8bd3f013744c0e1b31c08af3eab5742759ed70e3c2d"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.4.1-26457175151/kdx_2026.4.1-26457175151_linux_arm64.tar.gz"
+        sha256 "52f75ec344b2719d52b1774f2668f574eb22850a6d664e5ddb67d70bfa70f92b"
 
         def install
           bin.install "kdx"
