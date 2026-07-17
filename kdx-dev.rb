@@ -5,21 +5,21 @@
 class KdxDev < Formula
   desc "Kodexa CLI (Dev) - Development build of the Kodexa platform CLI"
   homepage "https://www.kodexa.com"
-  version "2026.9.0-fix-ENGG-5439-wasm-create-fires-event-subs-develop-29576421571"
+  version "2026.9.0-develop-29576493606"
   license "Proprietary"
 
   on_macos do
     on_intel do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-fix-ENGG-5439-wasm-create-fires-event-subs-develop-29576421571/kdx-dev_2026.9.0-fix-ENGG-5439-wasm-create-fires-event-subs-develop-29576421571_darwin_x86_64.tar.gz"
-      sha256 "e27aa1eed5adf0f6a3482917215e3daf3c7953a4fc7014f47bf7575e37195748"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-develop-29576493606/kdx-dev_2026.9.0-develop-29576493606_darwin_x86_64.tar.gz"
+      sha256 "47b296ec12e8b58e84f7af2bc830f238f68bc939dfce6b8df0e941649565f764"
 
       def install
         bin.install "kdx-dev"
       end
     end
     on_arm do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-fix-ENGG-5439-wasm-create-fires-event-subs-develop-29576421571/kdx-dev_2026.9.0-fix-ENGG-5439-wasm-create-fires-event-subs-develop-29576421571_darwin_arm64.tar.gz"
-      sha256 "b3b625d234ba7871b867ee801d6339519647c4e67bf0e51d96d94912e5f0d03c"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-develop-29576493606/kdx-dev_2026.9.0-develop-29576493606_darwin_arm64.tar.gz"
+      sha256 "4289608f8b7d1a6f7fdf222630a29b291dd8c8f103d0dd54d4ff62d6cdf621d2"
 
       def install
         bin.install "kdx-dev"
@@ -30,8 +30,8 @@ class KdxDev < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-fix-ENGG-5439-wasm-create-fires-event-subs-develop-29576421571/kdx-dev_2026.9.0-fix-ENGG-5439-wasm-create-fires-event-subs-develop-29576421571_linux_x86_64.tar.gz"
-        sha256 "d8e3cf05f8a3bd82f025efde6df179f7223aaa99aac21fb29336de00d4012804"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-develop-29576493606/kdx-dev_2026.9.0-develop-29576493606_linux_x86_64.tar.gz"
+        sha256 "4f336a7c4923790da40b7d741e019381e607bcc6af1ed77d38c58148a7b2ba52"
 
         def install
           bin.install "kdx-dev"
@@ -40,8 +40,8 @@ class KdxDev < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-fix-ENGG-5439-wasm-create-fires-event-subs-develop-29576421571/kdx-dev_2026.9.0-fix-ENGG-5439-wasm-create-fires-event-subs-develop-29576421571_linux_arm64.tar.gz"
-        sha256 "448755d51f8e9a05d5f9ae5a837b2f76020f57fc1ee86e9b9108c0be53c67a5c"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-develop-29576493606/kdx-dev_2026.9.0-develop-29576493606_linux_arm64.tar.gz"
+        sha256 "879e6721f3dd724fca96c415a019dca18922351ffbf8ee30fb52028b59bd0732"
 
         def install
           bin.install "kdx-dev"
