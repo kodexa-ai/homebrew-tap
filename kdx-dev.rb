@@ -5,21 +5,21 @@
 class KdxDev < Formula
   desc "Kodexa CLI (Dev) - Development build of the Kodexa platform CLI"
   homepage "https://www.kodexa.com"
-  version "2026.9.0-develop-29590361477"
+  version "2026.9.0-fix-generic-update-zero-values-29736676096"
   license "Proprietary"
 
   on_macos do
     on_intel do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-develop-29590361477/kdx-dev_2026.9.0-develop-29590361477_darwin_x86_64.tar.gz"
-      sha256 "b5619ed5e8301e2816f7d0982d7dff149e9ba93fcd58da25f2c522a01077647b"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-fix-generic-update-zero-values-29736676096/kdx-dev_2026.9.0-fix-generic-update-zero-values-29736676096_darwin_x86_64.tar.gz"
+      sha256 "df92f0164e0fcd2d38e15243c84116b0c2247b18f2ef057988a4c005090c827a"
 
       def install
         bin.install "kdx-dev"
       end
     end
     on_arm do
-      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-develop-29590361477/kdx-dev_2026.9.0-develop-29590361477_darwin_arm64.tar.gz"
-      sha256 "a676b0c4f2a3d1c69f956158a1e29c20cacfc8d358fad1fdc2edc6c47a3d1304"
+      url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-fix-generic-update-zero-values-29736676096/kdx-dev_2026.9.0-fix-generic-update-zero-values-29736676096_darwin_arm64.tar.gz"
+      sha256 "6fe3495be2e9d4337eb28e7e500a218c44f7a7ad9446828ffb1e5c75f75a4d01"
 
       def install
         bin.install "kdx-dev"
@@ -30,8 +30,8 @@ class KdxDev < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-develop-29590361477/kdx-dev_2026.9.0-develop-29590361477_linux_x86_64.tar.gz"
-        sha256 "89fe670638ca68992cd6e806700cd59a74586677336fb2ef03dce1b61668365c"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-fix-generic-update-zero-values-29736676096/kdx-dev_2026.9.0-fix-generic-update-zero-values-29736676096_linux_x86_64.tar.gz"
+        sha256 "3b06b2e48b34bbd823af9027b4a0f0f0b09c7af183d8f61cc11a85768d425f6e"
 
         def install
           bin.install "kdx-dev"
@@ -40,8 +40,8 @@ class KdxDev < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-develop-29590361477/kdx-dev_2026.9.0-develop-29590361477_linux_arm64.tar.gz"
-        sha256 "a5736aa81a858f59022b1cbadddd693f97d05e10aa16d71714beafe74d93bfec"
+        url "https://github.com/kodexa-ai/kdx-cli-releases/releases/download/v2026.9.0-fix-generic-update-zero-values-29736676096/kdx-dev_2026.9.0-fix-generic-update-zero-values-29736676096_linux_arm64.tar.gz"
+        sha256 "5ac3d44d51b1495c341ffca05b15e3a8b2955947ac7ce8598bf0320de503c1cb"
 
         def install
           bin.install "kdx-dev"
